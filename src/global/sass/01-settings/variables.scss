@@ -1,0 +1,23 @@
+/******************************************************************************
+  Variables
+
+  Definitions for miscellaneous global variables.
+*******************************************************************************/
+
+//Base font size for mixin calculations
+$unitless-base-font-size: 16;
+
+//Max container width
+$max-container-width: 1440px;
+
+//Component spacing
+$component-spacing-mobile: 20px;
+$component-spacing-desktop: 35px;
+
+//Gutters
+$gutters-mobile: $component-spacing-mobile;
+$gutters-phablet: 65px;
+$gutters-desktop: 110px;
+
+//Easing equations
+$ease-out-sine: cubic-bezier(0.39, 0.575, 0.565, 1);

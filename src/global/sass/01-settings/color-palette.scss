@@ -1,0 +1,58 @@
+// sass-lint:disable  indentation
+/******************************************************************************
+  Color Palette
+
+  Contains variables mapping directly to hexidecimal color values.
+
+  Color variable names are set using "name that color".
+  http://chir.ag/projects/name-that-color/#F8FCFF
+
+  All color variable names are given prefix "color" to aid with autocompletion.
+*******************************************************************************/
+
+/*-----------------------------------------------------------------------------
+  Primary Colors
+------------------------------------------------------------------------------*/
+
+$color-lochmara:          #008BD1;
+
+$color-white:             #FFF;
+$color-silver:            #CCC;
+$color-silver-chalice:    #AAA;
+$color-black:             #000;
+$color-cod-gray:          #131313;
+$color-mine-shaft-dark:   #262626;
+$color-mine-shaft:        #363636;
+$color-tundora:           #464646;
+$color-scorpion:          #565656;
+$color-dove-gray:         #666;
+$color-boulder:           #767676;
+$color-dusty-gray:        #969696;
+$color-wild-sand:         #F4F4F4;
+
+/*-----------------------------------------------------------------------------
+  Accent Colors
+------------------------------------------------------------------------------*/
+
+$color-thunderbird                  : #C7171D;
+$color-crimson                      : #ED1C24;
+$color-sunsetorange                 : #FF4747;
+
+$color-olivedrab                    : #6EAC28;
+$color-sushi                        : #86C440;
+$color-conifer                      : #A6DE68;
+
+$color-saffron                      : #F4B92C;
+$color-sunglow                      : #FC3;
+$color-kournikova                   : #FFE26F;
+
+/*-----------------------------------------------------------------------------
+  Color Palette
+
+  Sass list used for indexing colors.
+------------------------------------------------------------------------------*/
+
+$palette-global: $color-lochmara $color-white $color-silver $color-silver-chalice $color-black
+$color-cod-gray $color-mine-shaft-dark $color-mine-shaft $color-tundora $color-scorpion $color-boulder $color-dusty-gray
+$color-thunderbird $color-crimson $color-sunsetorange $color-olivedrab $color-sushi $color-conifer $color-saffron
+$color-sunglow $color-kournikova;

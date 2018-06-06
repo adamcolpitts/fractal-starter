@@ -1,0 +1,25 @@
+/******************************************************************************
+  Color Theme
+
+  Semantic variables are assigned values from color palettes. This allows for
+  maximum flexibility, maintainability & extensibility. This is intended for
+  color variables that will be used globally. Color variables specific to a
+  component should be defined within that component's .scss file(s).
+
+  All color variable names are given prefix "color" to aid with autocompletion.
+
+  BAD
+  border-color: #0000ff
+
+  BETTER
+  border-color: $color-blue
+
+  BEST
+  $my-border-color: $color-blue;
+  border-color: $my-border-color;
+*******************************************************************************/
+
+$color-body-bg:         $color-wild-sand;
+$color-body-copy:       $color-dove-gray;
+
+$color-primary:         $color-lochmara;

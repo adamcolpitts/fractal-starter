@@ -1,0 +1,24 @@
+/******************************************************************************
+  Breakpoints
+
+  Globally defined major breakpoints.
+  http://babich.biz/responsive-design-best-practices/
+
+  The $mq-breakpoints sass map is used by the sass-mq library.
+  https://github.com/sass-mq/sass-mq
+*******************************************************************************/
+
+$mq-breakpoints: (
+  mobile:  320px,
+  phablet: 576px,
+  tablet:  768px,
+  desktop: 992px,
+  wide:    1200px
+);
+
+//TODO: THIS IS FOR DEVELOPMENT ONLY. MAKE SURE TO COMMENT OUT FOR PRODUCTION.
+//Show indicator in top-right for what breakpoint is currently used
+//$mq-show-breakpoints: (mobile, phablet, tablet, desktop, wide);
+
+//Media query media type
+$mq-media-type: screen;

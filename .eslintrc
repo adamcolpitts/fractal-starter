@@ -1,0 +1,36 @@
+{
+  "extends": "airbnb/base",
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": {
+          "resolve": {
+            "root": [
+              "src"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-multi-spaces": 1,
+    "no-unused-vars": 1,
+    "comma-dangle": 0,
+    "class-methods-use-this": 0,
+    "no-console": 0,
+    "spaced-comment": 1,
+    "linebreak-style": [0, "windows"],
+    "no-param-reassign": 0,
+    "no-plusplus": 0,
+    "no-underscore-dangle": 0,
+    "prefer-arrow-callback": 1,
+    "no-restricted-syntax": [0, "ForInStatement"],
+    "default-case": 1,
+    "guard-for-in": 0,
+    "func-names": 0
+  }
+}

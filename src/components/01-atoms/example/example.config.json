@@ -1,0 +1,7 @@
+{
+  "name": "Example",
+  "status": "wip",
+  "context": {
+    "text": "This is example context data to display in our example component"
+  }
+}

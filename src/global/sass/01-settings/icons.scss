@@ -1,0 +1,25 @@
+/******************************************************************************
+  Icon Settings
+
+  This starter project is leveraging Material Icons for simplicity
+  https://google.github.io/material-design-icons/
+*******************************************************************************/
+
+$color-md-dark:               rgba(0, 0, 0, 0.54);
+$color-md-dark-inactive:      rgba(0, 0, 0, 0.26);
+$color-md-light:              rgba(255, 255, 255, 1);
+$color-md-light-inactive:     rgba(255, 255, 255, 0.3);
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icon-styles as black on a light background. */
+.material-icons.md-dark { color: $color-md-dark; }
+.material-icons.md-dark.md-inactive { color: $color-md-dark-inactive; }
+
+/* Rules for using icon-styles as white on a dark background. */
+.material-icons.md-light { color: $color-md-light; }
+.material-icons.md-light.md-inactive { color: $color-md-light-inactive; }

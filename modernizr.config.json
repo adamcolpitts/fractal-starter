@@ -1,0 +1,21 @@
+{
+  "classPrefix": "",
+  "minify": true,
+  "options": [
+    "addTest",
+    "html5shiv",
+    "html5printshiv",
+    "prefixedCSS",
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/touchevents",
+    "test/geolocation",
+    "test/css/boxshadow",
+    "test/css/rgba",
+    "test/css/transforms",
+    "test/css/transforms3d",
+    "test/css/transitions",
+    "test/css/checked"
+  ]
+}

@@ -1,0 +1,34 @@
+/******************************************************************************
+  Typography
+
+  Defines global setting variables for typography.
+*******************************************************************************/
+
+// Font families
+$font-family-primary: "Open Sans", sans-serif;
+$font-family-secondary: Georgia, Times, "Times New Roman", serif;
+
+// Font weights
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+.font-primary {
+  font-family: $font-family-primary;
+}
+
+.font-secondary {
+  font-family: $font-family-secondary;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: $color-dusty-gray;
+}
